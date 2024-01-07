@@ -1,8 +1,4 @@
 /* COMMON SHARED STYLE CODE */
-h1 h2 h3 h4 h5 h6{
-    padding:0;
-    line-height:0;
-}
 .body {
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
@@ -48,4 +44,44 @@ h1 h2 h3 h4 h5 h6{
     line-height: 95px;
     /* padding-top: 233px; */
 
+}
+
+/* DISCOUNT SECTION STYLE START FROM HERE */
+
+.discount-container {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.discount {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 44px;
+}
+
+.text-deal {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.text-catego {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    margin-top: -15px;
+}
+
+.dis-img {
+    width: 800px;
+    height: 500px;
 }
