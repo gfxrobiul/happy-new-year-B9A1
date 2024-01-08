@@ -200,7 +200,6 @@
     display: flex;
     margin: 120px auto;
     gap: 120px;
-    border: 1px solid red;
 
 }
 
@@ -217,6 +216,7 @@
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    margin-top: -15px;
     text-transform: capitalize;
 }
 
@@ -227,7 +227,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    margin-top: -15px;
+    margin-top: -20px;
 }
 
 .middle-soon img {
@@ -253,9 +253,10 @@
 }
 
 /* WHAT IS HOLIDAY SECTION STYLE START FROM HERE */
-.what-is-func{
-    margin-top:120px;
+.what-is-func {
+    margin-top: 120px;
 }
+
 .what-is-content {
     text-align: center;
 }
@@ -273,8 +274,8 @@
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
-    line-height:72px;
-    margin-top: -5px;
+    line-height: 72px;
+
 
 }
 
@@ -288,3 +289,51 @@
     margin-top: -10px;
     /* 160% */
 }
+
+/* AWESOME PORTFOLIO SECTION START */
+.awesome-port{
+   margin-top: 120px;
+}
+.awesome-container{
+    width: 1320px;
+    margin: auto;
+}
+.best-gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.awesome-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top:-15px;
+    text-transform: capitalize;
+}
+
+.awesome-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top:-20px;
+    
+    /* 160% */
+}
+
+
+/* AWESOME BOTTOM */
+.top-grid, .bottom-grid {
+    display: flex;
+    gap:20px;
+    justify-content:center;
+
+}
+.bottom-grid{
+    margin-top:10px;
+}
+
