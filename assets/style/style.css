@@ -291,13 +291,15 @@
 }
 
 /* AWESOME PORTFOLIO SECTION START */
-.awesome-port{
-   margin-top: 120px;
+.awesome-port {
+    margin-top: 120px;
 }
-.awesome-container{
+
+.awesome-container {
     width: 1320px;
     margin: auto;
 }
+
 .best-gift {
     color: #F00;
     font-family: Inter;
@@ -310,7 +312,7 @@
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-    margin-top:-15px;
+    margin-top: -15px;
     text-transform: capitalize;
 }
 
@@ -320,20 +322,63 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    margin-top:-20px;
-    
+    margin-top: -20px;
+
     /* 160% */
 }
 
 
 /* AWESOME BOTTOM */
-.top-grid, .bottom-grid {
+.top-grid,
+.bottom-grid {
     display: flex;
-    gap:20px;
-    justify-content:center;
+    gap: 20px;
+    justify-content: center;
+
 
 }
-.bottom-grid{
-    margin-top:10px;
+
+.bottom-grid {
+    margin-top: 10px;
 }
 
+/* sdasdhsajdhsadhsa */
+.subs-container {
+    width: 1320px;
+    height: 616px;
+    margin: auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+
+.subs {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.subs-top {
+    padding-top: 80px;
+}
+
+.email {
+    width: 400px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    padding: 30px;
+
+}
+
+.submit {
+    border: none;
+    background-color: red;
+    border-radius: 0 50px 50px 0;
+    padding: 30px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight:600;
+    text-transform: capitalize;
+}
