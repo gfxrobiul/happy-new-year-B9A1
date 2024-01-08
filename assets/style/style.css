@@ -14,14 +14,12 @@
 .banner {
     background-image: url(../images/Banner-Image.png);
     border-radius: 16px;
-    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     height: 600px;
     width: 1320px;
 }
 
 .banner-content {
-    margin-top: 50px;
-    padding-top: 233px;
+    padding-top:150px;
     /* ekhane kaj korte hobe */
 }
 
@@ -133,7 +131,7 @@
 
 }
 
- .wlcm-nt-left .join-button  {
+.wlcm-nt-left .join-button {
     background-color: red;
     padding: 15px 30px;
     border-radius: 5px;
@@ -152,9 +150,10 @@
     height: 482px;
     margin: auto;
     margin-top: 120px;
+    border-radius: 16px;
     background-color: rgba(188, 143, 143, 0.218);
     /* linear kaj kore nai tai eita use korchi color */
-    
+
 }
 
 .party-info-container {
@@ -180,12 +179,71 @@
 
 }
 
-.party-location-info .join-button{
-   
-        background-color: red;
-        padding: 15px 30px;
-        border-radius: 5px;
-        color: white;
-        border: none;
-    
+.party-location-info .join-button {
+
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+
 }
+
+
+/* COMING SOON BEST OFFER SECTION */
+.coming-soon-container {
+    width: 1320px;
+    display: flex;
+    margin: 120px auto;
+    gap: 120px;
+
+}
+
+.new-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.coming-soon-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+
+.coming-soon-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: -15px;
+}
+
+.middle-soon img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.right-soon-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.right-soon-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+     
+
+}
+
