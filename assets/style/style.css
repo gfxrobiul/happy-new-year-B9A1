@@ -16,7 +16,7 @@
 }
 
 .banner {
-    background-image: url(../images/Banner-Image.png);
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Banner-Image.png);
     border-radius: 16px;
     height: 600px;
     width: 1320px;
@@ -90,8 +90,8 @@
 
 /* WELCOME TO NIGHT PARTY SECTION STYLE START FROM HERE */
 .wlcm-nt-party {
-    background-image: url(../images/Vectorrr.png);
-    /* EKHANE LENIRAR GRADIENT KAJ KORE KENO BUJHTE PARCHI NA.. */
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../images/Vectorrr.png);
+
     width: 1320px;
     height: 600px;
     margin: auto;
@@ -342,7 +342,7 @@
     margin-top: 10px;
 }
 
-/* sdasdhsajdhsadhsa */
+/*Subc container */
 .subs-container {
     width: 1320px;
     height: 616px;
@@ -361,24 +361,123 @@
     padding-top: 80px;
 }
 
+
+.subs-top .subs-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.subs-top .subs-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+
 .email {
+    color: rgba(7, 2, 17, 0);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+
     width: 400px;
     border: none;
     border-radius: 50px 0 0 50px;
-    padding: 30px;
+    padding: 27px;
+
+}
+
+.email:focus {
+    outline: none;
 
 }
 
 .submit {
-    border: none;
+    width: 200px;
+    border: 2px solid red;
     background-color: red;
     border-radius: 0 50px 50px 0;
-    padding: 30px;
-
+    padding: 20px;
     color: #FFF;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-weight:600;
+    font-weight: 600;
     text-transform: capitalize;
+}
+
+/* FOOTER SECTION STYLE HERE */
+
+.footer-item {
+
+    background: #070211;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    height: 600px;
+}
+
+.title-footer,
+.title-footer-2 {
+
+    padding: 100px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.left-side {
+    display: flex;
+    gap: 20px;
+    font-family: Inter;
+
+}
+
+.call,
+.web {
+    width: 24px;
+    height: 24px;
+
+}
+
+.num,
+.site {
+
+    margin-top: -10px;
+}
+
+
+
+
+
+
+.social {
+    text-align: center;
+    margin-top: -300px;
+}
+
+.social-logo {
+    padding: 48px;
+
+}
+
+.social-logo img {
+    width: 64px;
+    height: 64px;
+    padding: 15px;
+}
+
+.hr {
+    width: 1250px;
+  
 }
